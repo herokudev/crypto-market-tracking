@@ -1,0 +1,2 @@
+(this["webpackJsonpreact-redux-app"]=this["webpackJsonpreact-redux-app"]||[]).push([[0],{11:function(e,t,r){"use strict";r.r(t);var c=r(0),n=r.n(c),a=r(3),s=r.n(a),i=(r(8),r(9),r(1));var o=function(){return Object(i.jsx)("div",{className:"App",children:"Cryto Market Tracker"})};s.a.render(Object(i.jsx)(n.a.StrictMode,{children:Object(i.jsx)(o,{})}),document.getElementById("root"))},8:function(e,t,r){},9:function(e,t,r){}},[[11,1,2]]]);
+//# sourceMappingURL=main.7a3be352.chunk.js.map
