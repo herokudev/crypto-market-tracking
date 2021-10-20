@@ -3,6 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@babel/core": "7.x",
+    "@babel/eslint-parser": "7.x",
+    "@babel/plugin-syntax-jsx": "7.x",
+    "@babel/preset-react": "7.x",    
     "@testing-library/jest-dom": "^5.14.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
