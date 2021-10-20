@@ -1,27 +1,26 @@
 .All-Stats {
-    height: 75vh;
+  height: 75vh;
+}
+
+.Stat-Container {
+  background-color: #4369b2;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+
+  li {
+    padding: 0 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
   }
-  
-  .Stat-Container {
-    background-color: #4369b2;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
-  
-    li {
-      padding: 0 10px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-  
-    li:nth-child(even) {
-      background-color: #5687e4;
-    }
-  
-    p {
-      font-size: 20px;
-      font-weight: 500;
-    }
+
+  li:nth-child(even) {
+    background-color: #5687e4;
   }
-  
+
+  p {
+    font-size: 20px;
+    font-weight: 500;
+  }
+}
