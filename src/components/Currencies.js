@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react';
 import { useSelector, useDispatch } from 'react-redux';
-import logo from '../assets/crypto1.svg';
+import logo from '../assets/crypto.svg';
 import Currency from './Currency';
 import { fetchCurrency, statPageSuccess, filterCurrency } from '../redux/currencies';
 import Filter from './Filter';

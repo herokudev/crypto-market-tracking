@@ -18,7 +18,7 @@ const Heading = ({ home }) => {
     return (
       <div className="NavBar-Container">
         <p>2021</p>
-        <p className="NavBar-Title">Top 10 CryptoCurrencies</p>
+        <p className="NavBar-Title">Top CryptoCurrencies Market Cap</p>
         <div>
           <i className="Mic"><FaMicrophone /></i>
           <i><FaCog /></i>
@@ -33,7 +33,7 @@ const Heading = ({ home }) => {
           <FaAngleLeft />
         </NavLink>
       </p>
-      <p>Top CryptoCurrencies Market Cap</p>
+      <p>CryptoCurrency Stats</p>
       <div>
         <i className="Mic"><FaMicrophone /></i>
         <i><FaCog /></i>
