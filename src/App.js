@@ -1,4 +1,3 @@
-import './styles/App.css';
 import {
   HashRouter as Router,
   Switch,

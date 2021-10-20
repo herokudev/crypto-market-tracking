@@ -1,5 +1,6 @@
 import { useSelector } from 'react-redux';
 import { NavLink } from 'react-router-dom';
+import '../scss/style.scss';
 import { FaAngleLeft, FaMicrophone, FaCog } from 'react-icons/fa';
 
 const NavBar = () => {
@@ -32,7 +33,7 @@ const Heading = ({ home }) => {
           <FaAngleLeft />
         </NavLink>
       </p>
-      <p>Currency Stats</p>
+      <p>Top CryptoCurrencies Market Cap</p>
       <div>
         <i className="Mic"><FaMicrophone /></i>
         <i><FaCog /></i>
