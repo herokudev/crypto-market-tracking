@@ -1,0 +1,20 @@
+.Header-Container {
+  display: flex;
+  align-items: center;
+  background-color: #35548b;
+}
+
+.Header-Picture {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  text-align: center;
+}
+
+.Header-Picture img {
+  width: 100px;
+}
+
+.Header-Name {
+  align-items: center;
+}
